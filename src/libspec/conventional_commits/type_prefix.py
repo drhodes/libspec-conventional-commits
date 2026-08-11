@@ -2,10 +2,10 @@
 Specification for Commit Type Prefix
 '''
 
-from .err import Req
+from libspec import Requirement
 
 
-class TypePrefix(Req):
+class TypePrefix(Requirement):
     '''
     Commits MUST be prefixed with a type, which consists of a noun (e.g., feat, fix).
 

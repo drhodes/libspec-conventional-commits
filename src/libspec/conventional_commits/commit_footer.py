@@ -2,10 +2,10 @@
 Feature Specification for Commit Footers Section
 '''
 
-from .err import Feat
+from libspec import Feature
 
 
-class CommitFooter(Feat):
+class CommitFooter(Feature):
     '''
     One or more footers MAY be provided at the bottom of a conventional commit message.
 

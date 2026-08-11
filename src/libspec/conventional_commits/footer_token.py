@@ -2,10 +2,10 @@
 Specification for Footer Token
 '''
 
-from .err import Req
+from libspec import Requirement
 
 
-class FooterToken(Req):
+class FooterToken(Requirement):
     '''
     A footer's token MUST identify the metadata trailer type.
 

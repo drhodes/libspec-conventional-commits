@@ -2,10 +2,10 @@
 Specification for Footer Separator
 '''
 
-from .err import Req
+from libspec import Requirement
 
 
-class FooterSeparator(Req):
+class FooterSeparator(Requirement):
     '''
     A footer entry MUST use a valid token-value separator.
 

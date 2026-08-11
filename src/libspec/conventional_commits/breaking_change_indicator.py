@@ -2,10 +2,10 @@
 Specification for Breaking Change Indication
 '''
 
-from .err import Req
+from libspec import Requirement
 
 
-class BreakingChangeIndicator(Req):
+class BreakingChangeIndicator(Requirement):
     '''
     Breaking changes MUST be indicated in the type/scope prefix of a commit, or as an entry in the footer.
 

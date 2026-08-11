@@ -2,10 +2,10 @@
 Specification for Footer Value Parsing and Termination
 '''
 
-from .err import Req
+from libspec import Requirement
 
 
-class FooterValue(Req):
+class FooterValue(Requirement):
     '''
     A footer's value follows the token and separator.
 

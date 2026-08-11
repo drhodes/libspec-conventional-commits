@@ -14,15 +14,15 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 dependencies = [
-    "libspec>=10.5.1",
+    "libspec>=10.5.2",
 ]
 
 [build-system]
-requires = ["setuptools>=65.5.0", "wheel"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
-[tool.setuptools.packages.find]
-include = ["spec", "spec.*"]
+[tool.hatch.build.targets.wheel]
+packages = ["src/libspec"]
 
 [dependency-groups]
 dev = [

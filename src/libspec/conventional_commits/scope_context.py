@@ -2,10 +2,10 @@
 Specification for Commit Scope Context
 '''
 
-from .err import Req
+from libspec import Requirement
 
 
-class ScopeContext(Req):
+class ScopeContext(Requirement):
     '''
     A scope MAY be provided after a commit type to give contextual information.
 

@@ -2,10 +2,10 @@
 Feature Specification for Semantic Versioning (SemVer) Mapping
 '''
 
-from .err import Feat
+from libspec import Feature
 
 
-class SemVerMapping(Feat):
+class SemVerMapping(Feature):
     '''
     Conventional Commits dovetail with Semantic Versioning (SemVer v2.0.0).
 

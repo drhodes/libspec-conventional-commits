@@ -2,10 +2,10 @@
 Specification for Commit Description
 '''
 
-from .err import Req
+from libspec import Requirement
 
 
-class CommitDescription(Req):
+class CommitDescription(Requirement):
     '''
     A short description MUST immediately follow the colon and space after the type/scope prefix.
 

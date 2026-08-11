@@ -2,10 +2,10 @@
 Specification for Terminal Colon and Space Separator
 '''
 
-from .err import Req
+from libspec import Requirement
 
 
-class ColonSeparator(Req):
+class ColonSeparator(Requirement):
     '''
     A terminal colon followed immediately by a space (': ') is REQUIRED after the type/scope prefix.
 

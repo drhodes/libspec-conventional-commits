@@ -2,10 +2,10 @@
 Feature Specification for Commit Header Structure
 '''
 
-from .err import Feat
+from libspec import Feature
 
 
-class CommitHeader(Feat):
+class CommitHeader(Feature):
     '''
     The first line of a conventional commit message is the header.
 

@@ -2,10 +2,10 @@
 Feature Specification for Commit Body
 '''
 
-from .err import Feat
+from libspec import Feature
 
 
-class CommitBody(Feat):
+class CommitBody(Feature):
     '''
     An optional commit body provides detailed contextual information about the code changes.
 
