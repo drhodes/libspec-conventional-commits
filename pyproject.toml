@@ -1,0 +1,31 @@
+[project]
+name = "libspec-conventional-commits"
+version = "0.1.0"
+description = "Executable libspec specification for Conventional Commits v1.0.0"
+readme = "README.md"
+license = "GPL-3.0-or-later"
+requires-python = ">=3.12"
+authors = [{ name = "Derek A. Rhodes", email = "physci@gmail.com" }]
+keywords = ["libspec", "specification", "conventional-commits", "semver", "git"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "libspec>=10.5.1",
+]
+
+[build-system]
+requires = ["setuptools>=65.5.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["spec", "spec.*"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+    "ruff>=0.15.12",
+]
