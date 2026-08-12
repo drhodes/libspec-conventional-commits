@@ -1,6 +1,6 @@
 [project]
 name = "libspec-conventional-commits"
-version = "0.1.0"
+version = "0.1.1"
 description = "Executable libspec specification for Conventional Commits v1.0.0"
 readme = "README.md"
 license = "GPL-3.0-or-later"
@@ -14,8 +14,9 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 dependencies = [
-    "libspec>=10.5.2",
+    "libspec>=10.5.4",
 ]
+
 
 [build-system]
 requires = ["hatchling"]
